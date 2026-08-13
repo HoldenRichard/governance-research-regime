@@ -1,0 +1,24 @@
+cff-version: 1.2.0
+title: "governance-research-regime: a logging protocol for developers who ship code they did not write"
+message: "If you use this protocol, please cite it."
+type: software
+authors:
+  - family-names: Richard
+    given-names: Holden
+repository-code: "https://github.com/HoldenRichard/governance-research-regime"
+abstract: >-
+  A research instrument and engineering discipline for recording how a developer
+  verifies, governs and remains accountable for a codebase authored largely by an
+  AI agent. Comprises a session-log schema, an 18-column defect and near-miss
+  ledger, an attestation register tracking formal platform and regulatory
+  promises against ground truth, an identifier-discipline convention for
+  multi-writer records, and a machine-checkable integrity gate. Contains the
+  protocol only; no data.
+keywords:
+  - software engineering
+  - AI-assisted development
+  - agentic coding
+  - research methods
+  - governance
+  - app store compliance
+license: CC-BY-4.0
