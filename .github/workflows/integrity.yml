@@ -1,8 +1,11 @@
-name: record integrity
+name: gate self-test
 on: [push, pull_request, workflow_dispatch]
 jobs:
-  check:
+  selftest:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - run: python3 scripts/integrity-check.py
+      # This repository holds the protocol, not a record, so there is nothing
+      # here for the gate to check. CI instead proves the gate works: it builds
+      # a throwaway record from templates/ and watches every check fire.
+      - run: bash scripts/selftest.sh

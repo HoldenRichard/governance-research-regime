@@ -89,9 +89,15 @@ CODEBOOK.md      operational definition of every column and every legal value
 RATIONALE.md     why each rule exists, stated as the failure class it prevents
 LIMITATIONS.md   what this is not, and what would have to be true for it to be more
 templates/       blank session log, ledger header, attestation register, index
-scripts/         the integrity gate
+scripts/         the integrity gate, plus a self-test that proves it fires
 .github/         the enforcement wiring
 ```
+
+This repository holds the protocol and no record, so there is nothing here for the gate
+to check. Its CI runs `scripts/selftest.sh` instead, which builds a throwaway record from
+`templates/`, watches every check fire on a deliberate violation, and confirms the record
+recovers afterwards. That is the protocol's own rule applied to itself: a gate nobody has
+watched fail is not a gate.
 
 ---
 
