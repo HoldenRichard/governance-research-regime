@@ -1,5 +1,7 @@
 # governance-research-regime
 
+[![DOI](https://zenodo.org/badge/1333558385.svg)](https://zenodo.org/badge/latestdoi/1333558385)
+
 **A logging protocol for developers who ship code they did not write.**
 
 When an AI agent authors most of a codebase, the developer who publishes it still
@@ -119,3 +121,12 @@ designed for it: change the schema early, record the change, never rewrite past 
 Prose and templates: [CC-BY-4.0](LICENSE-docs). Code in `scripts/` and `.github/`:
 [MIT](LICENSE). Attribution appreciated but the point is that you run it, not that you
 credit it.
+
+## Citing
+
+Releases are archived on Zenodo. Cite the concept DOI
+[10.5281/zenodo.21987310](https://doi.org/10.5281/zenodo.21987310) (resolves to
+the latest version) or the specific version you used (v1.0.0:
+[10.5281/zenodo.21987311](https://doi.org/10.5281/zenodo.21987311)).
+Machine-readable metadata is in [CITATION.cff](CITATION.cff). The dataset this
+protocol governs is released separately at study end, with its own DOI.

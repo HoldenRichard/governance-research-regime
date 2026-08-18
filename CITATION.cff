@@ -6,6 +6,9 @@ authors:
   - family-names: Richard
     given-names: Holden
 repository-code: "https://github.com/HoldenRichard/governance-research-regime"
+doi: 10.5281/zenodo.21987310
+version: 1.0.0
+date-released: "2026-08-18"
 abstract: >-
   A research instrument and engineering discipline for recording how a developer
   verifies, governs and remains accountable for a codebase authored largely by an
